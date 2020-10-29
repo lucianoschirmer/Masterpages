@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: '', // localhost:4200/
     component: FramePagelessPageComponent,
     children: [
       {path: '', component: LoginComponent},
