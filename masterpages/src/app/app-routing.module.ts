@@ -11,7 +11,14 @@ const routes: Routes = [
     path: '',
     component: FramePagelessPageComponent,
     children: [
-      {path: '', component: LoginComponent}
+      {path: '', component: LoginComponent},
+    ]
+  },
+  {
+    path: 'home',
+    component: FramePageComponent,
+    children: [
+      {path: '', component: HomeComponent},
     ]
   },
 ];
